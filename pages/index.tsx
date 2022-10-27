@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>
 					Mohamed Khalifa | Wordpress Developer | E-Commerce Developer
@@ -14,9 +13,13 @@ export default function Home() {
 					content='Mohamed Khalifa | Wordpress Developer | E-Commerce Developer, passionate about creating web apps to help the world become a better place'
 				/>
 			</Head>
-			<h1 className='text-red-500 text-3xl'>
-				Let&apos;s build a GREAT portfolio
-			</h1>
+
+			<Header />
+			{/* Hero */}
+			{/* About */}
+			{/* Experience */}
+			{/* Skills */}
+			{/* Contact */}
 		</div>
 	)
 }
