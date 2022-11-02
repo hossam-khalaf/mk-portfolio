@@ -24,7 +24,7 @@ export default function About({}: Props) {
 				transition={{ duration: 1.2 }}
 				src='https://avatars.hsoubcdn.com/34f917a836dafe87924c98f2fc3570f1?s=256'
 				alt='Hello i am A developer'
-				className='mt-[125px]  flex-shrink-0 object-cover w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 '
+				className='mt-[125px] md:mb-0 flex-shrink-0 object-cover w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 '
 			/>
 			<div className='space-y-10'>
 				<h4 className='text-4xl font-semibold'>
