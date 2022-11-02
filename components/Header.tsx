@@ -35,7 +35,7 @@ export default function Header({}: Props) {
 					bgColor='transparent'
 				/>
 				<SocialIcon
-					url='https://youtube.com/jaketrent'
+					url='https://github.com/jaketrent'
 					fgColor='gray'
 					bgColor='transparent'
 				/>
